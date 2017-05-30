@@ -22,7 +22,7 @@
 		</p>
 		<nav>
 		<ul>
-			<li><a href="index.jsp"><% request.getLocalAddr(); %></a></li>
+			<li><a href="index.jsp"><%=request.getServerName() %></a></li>
 			<li><a href="about.jsp"><% out.print(request.getLocalAddr()); %></a></li>
 		</ul>
 		</nav> </header>
